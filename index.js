@@ -47,3 +47,26 @@ const Hi = {
 };
 
 Hi.talk();
+
+// Array Map
+
+const colors = ['red', 'green', 'blue'];
+const items = colors.map(color => `<li>{colors}</li>`);
+
+console.log(items);
+
+// Object Desturcturing
+ const address = {
+     street: '',
+     city: '',
+     country: ''
+ };
+ 
+ const street = address.street;
+ const city = address.city;
+ const country = address.country;
+
+ const { street, city, country } = address; 
+ const { street: st } = address;
+
+ // spread operators
