@@ -36,3 +36,14 @@ const jobs = [
 ];
 
 const activeJobs = jobs.filter(job => job.isActive);
+
+const Hi = {
+    talk() {
+        var self = this;
+        setTimeout(() => {
+            console.log("this", this);
+        }, 1000);
+    }
+};
+
+Hi.talk();
