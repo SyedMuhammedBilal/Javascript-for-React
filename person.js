@@ -1,4 +1,4 @@
-// Modules 
+// Modules in React
 
 export class Person {
   constructor(name) {
