@@ -70,3 +70,32 @@ console.log(items);
  const { street: st } = address;
 
  // spread operators
+
+ const first = [1, 2, 3];
+ const second = [4, 5, 6];
+
+ //const combined = first.concat(second);
+ const combined = [...first, ...second, 'a'];
+ const clone = [...first];
+ console.log(first);
+ console.log(clone);
+
+ const firstName = {name: "syed"};
+ const secondName = {name: "bilal"};
+
+ const combinedName = {...firstName, ...secondName, role: 'React Dev'};
+ console.log(combinedName);
+
+ // classes
+
+ import Teacher, { promote } from './teacher';
+
+ // default can be imported like this -> import ... from './...';
+ // Named can be imported like this -> import {...} from './...';
+
+ const teacher = new Teacher("Bilal", "MSc");
+
+ // Modules
+
+ teacher.teach();
+
