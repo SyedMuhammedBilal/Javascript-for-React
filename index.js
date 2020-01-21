@@ -95,7 +95,7 @@ console.log(items);
 
  const teacher = new Teacher("Bilal", "MSc");
 
- // Modules
+ // Modules method in React
 
  teacher.teach();
 
