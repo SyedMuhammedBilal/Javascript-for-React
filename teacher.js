@@ -1,4 +1,5 @@
 // importing modules
+
 import { Person } from './person';
 
 export function promote() {}
